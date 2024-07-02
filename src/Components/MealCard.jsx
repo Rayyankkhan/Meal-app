@@ -49,7 +49,7 @@ const MealCard = ({
             </h2>
             {/* <h2 className="font-semibold ">Cuisine: <span className=''>{mealrating} {renderStars(mealrating)} <span className="flex"></span></span></h2> */}
             <h2 className="font-semibold flex items-center justify-center gap-x-1">
-              <span className="">Cuisine:</span>
+              <span className="">Rating:</span>
               <span className="flex items-center gap-x-1 font-semibold">
                 {mealrating} {renderStars(mealrating)}
               </span>
