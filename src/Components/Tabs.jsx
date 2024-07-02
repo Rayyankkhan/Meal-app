@@ -4,7 +4,7 @@ const Tabs = ({ activeTab, setActiveTab }) => {
   const tabs = ['All Meals', 'Week 1', 'Week 2', 'Week 3', 'Week 4'];
   
   return (
-    <div className=" flex items-center justify-center xs:gap-x-5 lg:gap-x-10">
+    <div className=" flex items-center justify-center xs:gap-x-5 md:gap-x-8 lg:gap-x-10">
       {tabs.map((tab, index) => (
         <button
           key={index}

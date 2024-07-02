@@ -18,10 +18,10 @@ const MealCard = ({
 }) => {
   return (
     <>
-      <div className="p-5 bg-[#FAFAFA] border-[1px] border-[#E2E2E2] rounded-lg xs:w-[300px] md:w-[408.15px] mr-2 md:h-[570.21px] shadow-lg">
+      <div className="p-5 bg-[#FAFAFA] border-[1px] border-[#E2E2E2] rounded-lg xs:w-[290px] md:w-[360px] md:h-[550.21px] shadow-lg">
         <div className="flex items-center justify-center">
           <div
-            className={`rounded-lg w-[344px] h-[245px] bg-cover bg-no-repeat `}
+            className={`rounded-lg w-[340px] h-[245px] bg-cover bg-no-repeat `}
             style={{ backgroundImage: `url(${mealImage})` }}
           >
             <div className="flex items-center justify-between px-3 pt-3 ">

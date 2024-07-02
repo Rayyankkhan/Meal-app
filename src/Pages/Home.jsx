@@ -74,10 +74,10 @@ const addMealsToWeek = (week) => {
           <p className="md:text-[16px] xs:text-[14px] text-center">Select Meal to Add in Week. You will be able to edit. modify and change the Meal Weeks. </p>
           </div>
         </div>
-        <div className=" xs:px-4 sm:px-10 lg:px-28 py-6 flex items-center md:justify-start xs:justify-center">
-      `   <h1 className=" text-left text-[#191919] text-[30px] font-poppins font-semibold">Week Orders</h1>
+        <div className=" xs:px-4 sm:px-10 lg:px-16 py-6 flex items-center md:justify-start xs:justify-center">
+         <h1 className=" text-left text-[#191919] text-[30px] font-poppins font-semibold">Week Orders</h1>
         </div>
-      <div className="flex flex-col md:flex-row gap-y-5 bg-white items-center justify-between sm:px-5 lg:px-28 py-10 mb-10">
+      <div className="flex flex-col md:flex-row gap-y-5 bg-white items-center justify-between sm:px-5 lg:px-16 py-10 mb-10">
 
       <Tabs activeTab={activeTab} setActiveTab={setActiveTab} />
       
